@@ -15,6 +15,10 @@
 "CARRIER","キャリア","Carrier","carrier","STRING",
 "OS","OS","OS","os","STRING",
 "APPLI","ウェブ/アプリ","Web/App","appli","STRING",
+"CAMPAIGN_TYPE","キャンペーンタイプ","Campaign Type","campaignType","STRING",
+"APP_ID","アプリID/パッケージ名","App ID/Package name","appID","STRING",
+"APP_NAME","アプリ名","App Name","appName","STRING",
+"APP_OS","アプリOS","App OS","appOS","STRING",
 "IMPS","インプレッション数","Impressions","impressions","LONG","[CONVERSION_CATEGORY, CONVERSION_LABEL]"
 "CLICK_RATE","クリック率","CTR","ctr","DOUBLE","[CONVERSION_CATEGORY, CONVERSION_LABEL]"
 "COST","コスト","Cost","cost","LONG","[CONVERSION_CATEGORY, CONVERSION_LABEL]"
