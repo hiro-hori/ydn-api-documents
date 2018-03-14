@@ -98,7 +98,8 @@ Display the campaign status, regardless of userStatus setting</td>
  <tr>
   <td>adProductType</td>
   <td>xsd:string</td>
-  <td>Ad Product Type.</td>
+  <td>Ad product information<br>*Check the available values by get operation on
+<a href="../services/AccountAdProductService.md">AccountAdProductService</a>
   <td>yes</td>
   <td>Requirement</td>
   <td>NotUpdatable</td>
