@@ -129,6 +129,9 @@ Code           | Message                     | Description
 220133 | Not allowed to set impression beacon url. | Impression beacon URL is not available since the external link to analyzing tool providers is not allowed.
 220301 | Over limit to delivered ad. | Number of ads set to be distributed exceeded the limit. 
 220302 | Over limit to ad under account. | Number of ads under an account exceeded the limit. 
+220322 | Invalid tracking parameter. | Invalid string (such as invalid Tracking Parameter, etc.) was found.
+220323 | Unavailable tracking parameter for ad. | There is a Tracking Parameter which is not available for the ad product.
+220324 | Unavailable tracking parameter for ad. | There is a Tracking Parameter which is not available for the YDN-unaligned tracking tool, or a discontinued Tracking Parameter.
 
 ##### Service
 [AdGroupService](/docs/en/api_reference/services/AdGroupService.md)

@@ -129,6 +129,9 @@ SOAPリクエストが成功した場合、YDN APIは HTTP 200 OKというレス
 220133 | Not allowed to set impression beacon url. | 広告効果測定ツール提供企業など外部との連係許可がないため、<br>インプレッションビーコンURLの設定はできません。 
 220301 | Over limit to delivered ad. | 配信設定中の広告の件数が上限を超えています。
 220302 | Over limit to ad under account. | アカウント配下の広告の件数が上限を超えています。
+220322 | Invalid tracking parameter. | 無効な文字列（無効なトラッキングパラメータなど）が存在します。
+220323 | Unavailable tracking parameter for ad. | 広告商品に対応していないトラッキングパラメータが存在します。
+220324 | Unavailable tracking parameter for ad. | YDNと未連携の広告効果測定ツールのため利用できない、または提供終了済みのトラッキングパラメータが存在します。
 
 ##### Service
 [AdGroupService](/docs/ja/api_reference/services/AdGroupService.md)
